@@ -1,12 +1,12 @@
 def fizzbuzz(n)
       if n % 15 == 0
-          puts "FizzBuzz"
+           print "FizzBuzz"
       elsif n % 3 == 0
-          puts "Fizz"
+          print "Fizz"
       elsif n % 5 == 0
-          puts "Buzz"
+          print "Buzz"
       else
-          puts n
+           print n
       end
 end
 num_max = 100
