@@ -1,15 +1,15 @@
 def fizzbuzz(n)
       if n % 15 == 0
-           print "FizzBuzz"
+          return "FizzBuzz"
       elsif n % 3 == 0
-          print "Fizz"
+          return "Fizz"
       elsif n % 5 == 0
-          print "Buzz"
+          return "Buzz"
       else
-           print n
+          return n
       end
 end
 num_max = 100
 (1..num_max).each do |n|
-  print fizzbuzz(n)
+ puts fizzbuzz(n)
 end
